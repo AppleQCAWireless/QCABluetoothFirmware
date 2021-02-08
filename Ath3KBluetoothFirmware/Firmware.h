@@ -2,10 +2,21 @@
 //  Firmware.h
 //  Ath3KBluetoothFirmware
 //
-//  Created by Charlie Jiang on 2/4/21.
 //  Copyright © 2021 cjiang. All rights reserved.
 //  Copyright © 2021 zxystd. All rights reserved.
 //
+//----------------------------------------------------------------------
+/*
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+*/
 
 #ifndef Firmware_h
 #define Firmware_h

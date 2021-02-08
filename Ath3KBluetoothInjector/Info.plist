@@ -4,8 +4,6 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
-	<key>CFBundleExecutable</key>
-	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -23,13 +21,11 @@
 		<key>0489_E036</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -40,13 +36,11 @@
 		<key>0489_E03C</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -57,13 +51,11 @@
 		<key>0489_E04D</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -74,13 +66,11 @@
 		<key>0489_E04E</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -91,13 +81,11 @@
 		<key>0489_E056</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -108,13 +96,11 @@
 		<key>0489_E057</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -125,13 +111,11 @@
 		<key>0489_E05F</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -142,13 +126,11 @@
 		<key>0489_E076</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -159,13 +141,11 @@
 		<key>0489_E078</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -176,13 +156,11 @@
 		<key>0489_E095</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -193,13 +171,11 @@
 		<key>04C5_1330</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -210,13 +186,11 @@
 		<key>04CA_3004</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -227,13 +201,11 @@
 		<key>04CA_3005</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -244,13 +216,11 @@
 		<key>04CA_3006</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -261,13 +231,11 @@
 		<key>04CA_3007</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -278,13 +246,11 @@
 		<key>04CA_3008</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -295,13 +261,11 @@
 		<key>04CA_300B</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -312,13 +276,11 @@
 		<key>04CA_300D</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -329,13 +291,11 @@
 		<key>04CA_300F</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -346,13 +306,11 @@
 		<key>04CA_3010</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -363,13 +321,11 @@
 		<key>04CA_3014</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -380,13 +336,11 @@
 		<key>04CA_3018</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -397,13 +351,11 @@
 		<key>0930_0219</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -414,13 +366,11 @@
 		<key>0930_021C</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -431,13 +381,11 @@
 		<key>0930_0220</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -448,13 +396,11 @@
 		<key>0930_0227</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -465,13 +411,11 @@
 		<key>0B05_17D0</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -482,13 +426,11 @@
 		<key>0CF3_0036</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -499,13 +441,11 @@
 		<key>0CF3_3004</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -516,13 +456,11 @@
 		<key>0CF3_3008</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -533,13 +471,11 @@
 		<key>0CF3_311D</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -550,13 +486,11 @@
 		<key>0CF3_311E</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -567,13 +501,11 @@
 		<key>0CF3_311F</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -584,13 +516,11 @@
 		<key>0CF3_3121</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -598,16 +528,14 @@
 			<key>idVendor</key>
 			<integer>3315</integer>
 		</dict>
-		<key>0CF3_817a</key>
+		<key>0CF3_817A</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -618,13 +546,11 @@
 		<key>0CF3_817B</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -635,13 +561,11 @@
 		<key>0CF3_E003</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -652,13 +576,11 @@
 		<key>0CF3_E004</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -669,13 +591,11 @@
 		<key>0CF3_E005</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -686,13 +606,11 @@
 		<key>0CF3_E006</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -703,13 +621,11 @@
 		<key>13D3_3362</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -720,13 +636,11 @@
 		<key>13D3_3375</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -737,13 +651,11 @@
 		<key>13D3_3393</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -754,13 +666,11 @@
 		<key>13D3_3395</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -771,13 +681,11 @@
 		<key>13D3_3402</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -788,13 +696,11 @@
 		<key>13D3_3408</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -805,13 +711,11 @@
 		<key>13D3_3423</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -822,13 +726,11 @@
 		<key>13D3_3432</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -839,13 +741,11 @@
 		<key>13D3_3472</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -856,13 +756,11 @@
 		<key>13D3_3474</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -873,13 +771,11 @@
 		<key>13D3_3487</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -890,13 +786,11 @@
 		<key>13D3_3490</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
-			<key>IOMatchCategory</key>
-			<string>${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
 			<key>IOProbeScore</key>
-			<integer>4000</integer>
+			<integer>3000</integer>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
@@ -908,16 +802,7 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2021 cjiang &amp; zxystd. All rights reserved.</string>
 	<key>OSBundleLibraries</key>
-	<dict>
-		<key>com.apple.iokit.IOUSBHostFamily</key>
-		<string>1.2</string>
-		<key>com.apple.kpi.iokit</key>
-		<string>16.7</string>
-		<key>com.apple.kpi.libkern</key>
-		<string>16.7</string>
-		<key>com.apple.kpi.mach</key>
-		<string>16.7</string>
-	</dict>
+	<dict/>
 	<key>OSBundleRequired</key>
 	<string>Root</string>
 </dict>

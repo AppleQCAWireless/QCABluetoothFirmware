@@ -7,18 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC8978AA25CBC89A00D6FFEF /* Ath3KBluetoothFirmware.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BC8978A925CBC89A00D6FFEF /* Ath3KBluetoothFirmware.hpp */; };
-		BC8978AC25CBC89A00D6FFEF /* Ath3KBluetoothFirmware.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC8978AB25CBC89A00D6FFEF /* Ath3KBluetoothFirmware.cpp */; };
+		BC1C9A2725CBCF9C00CF9BF4 /* Firmware.h in Headers */ = {isa = PBXBuildFile; fileRef = BC1C9A2625CBCF9C00CF9BF4 /* Firmware.h */; };
+		BC8978BF25CBCA2500D6FFEF /* Ath3KBluetoothFirmware.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC8978B825CBCA2500D6FFEF /* Ath3KBluetoothFirmware.cpp */; };
+		BC8978C025CBCA2500D6FFEF /* Ath3KBluetoothFirmware.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BC8978B925CBCA2500D6FFEF /* Ath3KBluetoothFirmware.hpp */; };
+		BC8978C225CBCA2500D6FFEF /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = BC8978BB25CBCA2500D6FFEF /* Common.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC1C9A2625CBCF9C00CF9BF4 /* Firmware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firmware.h; sourceTree = "<group>"; };
+		BC1C9A2D25CBD59000CF9BF4 /* Ath3KBluetoothInjector.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ath3KBluetoothInjector.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1C9A3825CD6B7A00CF9BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC8978A625CBC89A00D6FFEF /* Ath3KBluetoothFirmware.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ath3KBluetoothFirmware.kext; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC8978A925CBC89A00D6FFEF /* Ath3KBluetoothFirmware.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Ath3KBluetoothFirmware.hpp; sourceTree = "<group>"; };
-		BC8978AB25CBC89A00D6FFEF /* Ath3KBluetoothFirmware.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ath3KBluetoothFirmware.cpp; sourceTree = "<group>"; };
-		BC8978AD25CBC89A00D6FFEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8978B825CBCA2500D6FFEF /* Ath3KBluetoothFirmware.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ath3KBluetoothFirmware.cpp; sourceTree = "<group>"; };
+		BC8978B925CBCA2500D6FFEF /* Ath3KBluetoothFirmware.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Ath3KBluetoothFirmware.hpp; sourceTree = "<group>"; };
+		BC8978BA25CBCA2500D6FFEF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8978BB25CBCA2500D6FFEF /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BC1C9A2A25CBD59000CF9BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BC8978A325CBC89A00D6FFEF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -29,10 +42,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC1C9A3725CD699B00CF9BF4 /* Ath3KBluetoothInjector */ = {
+			isa = PBXGroup;
+			children = (
+				BC1C9A3825CD6B7A00CF9BF4 /* Info.plist */,
+			);
+			path = Ath3KBluetoothInjector;
+			sourceTree = "<group>";
+		};
 		BC89789C25CBC89A00D6FFEF = {
 			isa = PBXGroup;
 			children = (
 				BC8978A825CBC89A00D6FFEF /* Ath3KBluetoothFirmware */,
+				BC1C9A3725CD699B00CF9BF4 /* Ath3KBluetoothInjector */,
 				BC8978A725CBC89A00D6FFEF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				BC8978A625CBC89A00D6FFEF /* Ath3KBluetoothFirmware.kext */,
+				BC1C9A2D25CBD59000CF9BF4 /* Ath3KBluetoothInjector.kext */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +71,11 @@
 		BC8978A825CBC89A00D6FFEF /* Ath3KBluetoothFirmware */ = {
 			isa = PBXGroup;
 			children = (
-				BC8978A925CBC89A00D6FFEF /* Ath3KBluetoothFirmware.hpp */,
-				BC8978AB25CBC89A00D6FFEF /* Ath3KBluetoothFirmware.cpp */,
-				BC8978AD25CBC89A00D6FFEF /* Info.plist */,
+				BC8978BB25CBCA2500D6FFEF /* Common.h */,
+				BC1C9A2625CBCF9C00CF9BF4 /* Firmware.h */,
+				BC8978B925CBCA2500D6FFEF /* Ath3KBluetoothFirmware.hpp */,
+				BC8978B825CBCA2500D6FFEF /* Ath3KBluetoothFirmware.cpp */,
+				BC8978BA25CBCA2500D6FFEF /* Info.plist */,
 			);
 			path = Ath3KBluetoothFirmware;
 			sourceTree = "<group>";
@@ -58,17 +83,44 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		BC1C9A2825CBD59000CF9BF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BC8978A125CBC89A00D6FFEF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC8978AA25CBC89A00D6FFEF /* Ath3KBluetoothFirmware.hpp in Headers */,
+				BC8978C025CBCA2500D6FFEF /* Ath3KBluetoothFirmware.hpp in Headers */,
+				BC8978C225CBCA2500D6FFEF /* Common.h in Headers */,
+				BC1C9A2725CBCF9C00CF9BF4 /* Firmware.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		BC1C9A2C25CBD59000CF9BF4 /* Ath3KBluetoothInjector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1C9A3425CBD59000CF9BF4 /* Build configuration list for PBXNativeTarget "Ath3KBluetoothInjector" */;
+			buildPhases = (
+				BC1C9A2825CBD59000CF9BF4 /* Headers */,
+				BC1C9A2925CBD59000CF9BF4 /* Sources */,
+				BC1C9A2A25CBD59000CF9BF4 /* Frameworks */,
+				BC1C9A2B25CBD59000CF9BF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ath3KBluetoothInjector;
+			productName = Ath3KBluetoothInjector;
+			productReference = BC1C9A2D25CBD59000CF9BF4 /* Ath3KBluetoothInjector.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
 		BC8978A525CBC89A00D6FFEF /* Ath3KBluetoothFirmware */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC8978B025CBC89A00D6FFEF /* Build configuration list for PBXNativeTarget "Ath3KBluetoothFirmware" */;
@@ -96,6 +148,9 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Charlie Jiang";
 				TargetAttributes = {
+					BC1C9A2C25CBD59000CF9BF4 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					BC8978A525CBC89A00D6FFEF = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -115,11 +170,19 @@
 			projectRoot = "";
 			targets = (
 				BC8978A525CBC89A00D6FFEF /* Ath3KBluetoothFirmware */,
+				BC1C9A2C25CBD59000CF9BF4 /* Ath3KBluetoothInjector */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BC1C9A2B25CBD59000CF9BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BC8978A425CBC89A00D6FFEF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -130,24 +193,63 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BC1C9A2925CBD59000CF9BF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BC8978A225CBC89A00D6FFEF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC8978AC25CBC89A00D6FFEF /* Ath3KBluetoothFirmware.cpp in Sources */,
+				BC8978BF25CBCA2500D6FFEF /* Ath3KBluetoothFirmware.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		BC1C9A3525CBD59000CF9BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.1.0;
+				INFOPLIST_FILE = Ath3KBluetoothInjector/Info.plist;
+				MARKETING_VERSION = 1.1.0;
+				MODULE_NAME = com.cjiang.Ath3KBluetoothInjector;
+				MODULE_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjiang.Ath3KBluetoothInjector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		BC1C9A3625CBD59000CF9BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.1.0;
+				INFOPLIST_FILE = Ath3KBluetoothInjector/Info.plist;
+				MARKETING_VERSION = 1.1.0;
+				MODULE_NAME = com.cjiang.Ath3KBluetoothInjector;
+				MODULE_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjiang.Ath3KBluetoothInjector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
 		BC8978AE25CBC89A00D6FFEF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -195,6 +297,8 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = Ath3KBluetoothFirmware;
+				PRODUCT_NAME = Ath3KBluetoothFirmware;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -205,7 +309,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -246,6 +350,9 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = Ath3KBluetoothFirmware;
+				PRODUCT_NAME = Ath3KBluetoothFirmware;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -255,11 +362,13 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				CURRENT_PROJECT_VERSION = 1.1.0;
 				INFOPLIST_FILE = Ath3KBluetoothFirmware/Info.plist;
+				MARKETING_VERSION = 1.1.0;
 				MODULE_NAME = com.cjiang.Ath3KBluetoothFirmware;
-				MODULE_VERSION = 1.0.0d1;
+				MODULE_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cjiang.Ath3KBluetoothFirmware;
+				PRODUCT_MODULE_NAME = Ath3KBluetoothFirmware;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};
@@ -270,11 +379,13 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				CURRENT_PROJECT_VERSION = 1.1.0;
 				INFOPLIST_FILE = Ath3KBluetoothFirmware/Info.plist;
+				MARKETING_VERSION = 1.1.0;
 				MODULE_NAME = com.cjiang.Ath3KBluetoothFirmware;
-				MODULE_VERSION = 1.0.0d1;
+				MODULE_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cjiang.Ath3KBluetoothFirmware;
+				PRODUCT_MODULE_NAME = Ath3KBluetoothFirmware;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};
@@ -283,6 +394,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BC1C9A3425CBD59000CF9BF4 /* Build configuration list for PBXNativeTarget "Ath3KBluetoothInjector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1C9A3525CBD59000CF9BF4 /* Debug */,
+				BC1C9A3625CBD59000CF9BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BC8978A025CBC89A00D6FFEF /* Build configuration list for PBXProject "Ath3KBluetoothFirmware" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

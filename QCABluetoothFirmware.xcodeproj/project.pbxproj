@@ -8,20 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		BC1C9A2725CBCF9C00CF9BF4 /* Firmware.h in Headers */ = {isa = PBXBuildFile; fileRef = BC1C9A2625CBCF9C00CF9BF4 /* Firmware.h */; };
-		BC8978BF25CBCA2500D6FFEF /* Ath3KBluetoothFirmware.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC8978B825CBCA2500D6FFEF /* Ath3KBluetoothFirmware.cpp */; };
-		BC8978C025CBCA2500D6FFEF /* Ath3KBluetoothFirmware.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BC8978B925CBCA2500D6FFEF /* Ath3KBluetoothFirmware.hpp */; };
+		BC8978BF25CBCA2500D6FFEF /* Ath3KFirmware.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC8978B825CBCA2500D6FFEF /* Ath3KFirmware.cpp */; };
+		BC8978C025CBCA2500D6FFEF /* Ath3KFirmware.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BC8978B925CBCA2500D6FFEF /* Ath3KFirmware.hpp */; };
 		BC8978C225CBCA2500D6FFEF /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = BC8978BB25CBCA2500D6FFEF /* Common.h */; };
+		BCA1895D25D0FE0B00D92B42 /* QCAFirmware.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BCA1895B25D0FE0B00D92B42 /* QCAFirmware.cpp */; };
+		BCA1895E25D0FE0B00D92B42 /* QCAFirmware.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BCA1895C25D0FE0B00D92B42 /* QCAFirmware.hpp */; };
+		BCA189D725D3BABA00D92B42 /* QCABluetoothFirmware.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BCA189D525D3BABA00D92B42 /* QCABluetoothFirmware.cpp */; };
+		BCA189D825D3BABA00D92B42 /* QCABluetoothFirmware.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BCA189D625D3BABA00D92B42 /* QCABluetoothFirmware.hpp */; };
+		BCA189F125D5621500D92B42 /* QCASoCFirmware.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BCA189EF25D5621500D92B42 /* QCASoCFirmware.cpp */; };
+		BCA189F225D5621500D92B42 /* QCASoCFirmware.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BCA189F025D5621500D92B42 /* QCASoCFirmware.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BC1C9A2625CBCF9C00CF9BF4 /* Firmware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firmware.h; sourceTree = "<group>"; };
-		BC1C9A2D25CBD59000CF9BF4 /* Ath3KBluetoothInjector.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ath3KBluetoothInjector.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1C9A2D25CBD59000CF9BF4 /* QCABluetoothInjector.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QCABluetoothInjector.kext; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC1C9A3825CD6B7A00CF9BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC8978A625CBC89A00D6FFEF /* Ath3KBluetoothFirmware.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ath3KBluetoothFirmware.kext; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC8978B825CBCA2500D6FFEF /* Ath3KBluetoothFirmware.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ath3KBluetoothFirmware.cpp; sourceTree = "<group>"; };
-		BC8978B925CBCA2500D6FFEF /* Ath3KBluetoothFirmware.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Ath3KBluetoothFirmware.hpp; sourceTree = "<group>"; };
+		BC50EF1625D68998000D40DC /* Hci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hci.h; sourceTree = "<group>"; };
+		BC8978A625CBC89A00D6FFEF /* QCABluetoothFirmware.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QCABluetoothFirmware.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8978B825CBCA2500D6FFEF /* Ath3KFirmware.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ath3KFirmware.cpp; sourceTree = "<group>"; };
+		BC8978B925CBCA2500D6FFEF /* Ath3KFirmware.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Ath3KFirmware.hpp; sourceTree = "<group>"; };
 		BC8978BA25CBCA2500D6FFEF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC8978BB25CBCA2500D6FFEF /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		BCA1895B25D0FE0B00D92B42 /* QCAFirmware.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QCAFirmware.cpp; sourceTree = "<group>"; };
+		BCA1895C25D0FE0B00D92B42 /* QCAFirmware.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = QCAFirmware.hpp; sourceTree = "<group>"; };
+		BCA189D525D3BABA00D92B42 /* QCABluetoothFirmware.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QCABluetoothFirmware.cpp; sourceTree = "<group>"; };
+		BCA189D625D3BABA00D92B42 /* QCABluetoothFirmware.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = QCABluetoothFirmware.hpp; sourceTree = "<group>"; };
+		BCA189D925D433C100D92B42 /* FIRMWARE_RAM_PATCH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FIRMWARE_RAM_PATCH.h; sourceTree = "<group>"; };
+		BCA189DA25D4344B00D92B42 /* FIRMWARE_NVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FIRMWARE_NVM.h; sourceTree = "<group>"; };
+		BCA189DB25D434D300D92B42 /* FIRMWARE_RAMPS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FIRMWARE_RAMPS.h; sourceTree = "<group>"; };
+		BCA189DC25D435F000D92B42 /* FIRMWARE_ATHRBT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FIRMWARE_ATHRBT.h; sourceTree = "<group>"; };
+		BCA189EB25D437AD00D92B42 /* FIRMWARE_CRBTFW_HTBTFW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FIRMWARE_CRBTFW_HTBTFW.h; sourceTree = "<group>"; };
+		BCA189EC25D4389700D92B42 /* FIRMWARE_CRNV_HTNV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FIRMWARE_CRNV_HTNV.h; sourceTree = "<group>"; };
+		BCA189EF25D5621500D92B42 /* QCASoCFirmware.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QCASoCFirmware.cpp; sourceTree = "<group>"; };
+		BCA189F025D5621500D92B42 /* QCASoCFirmware.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = QCASoCFirmware.hpp; sourceTree = "<group>"; };
+		BCA189F325D6499100D92B42 /* FIRMWARE_RAM_PATCH_USB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FIRMWARE_RAM_PATCH_USB.h; sourceTree = "<group>"; };
+		BCA189F425D649E800D92B42 /* FIRMWARE_NVM_USB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FIRMWARE_NVM_USB.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,19 +63,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BC1C9A3725CD699B00CF9BF4 /* Ath3KBluetoothInjector */ = {
+		BC1C9A3725CD699B00CF9BF4 /* QCABluetoothInjector */ = {
 			isa = PBXGroup;
 			children = (
 				BC1C9A3825CD6B7A00CF9BF4 /* Info.plist */,
 			);
-			path = Ath3KBluetoothInjector;
+			path = QCABluetoothInjector;
 			sourceTree = "<group>";
 		};
 		BC89789C25CBC89A00D6FFEF = {
 			isa = PBXGroup;
 			children = (
-				BC8978A825CBC89A00D6FFEF /* Ath3KBluetoothFirmware */,
-				BC1C9A3725CD699B00CF9BF4 /* Ath3KBluetoothInjector */,
+				BCA1895925D0F5FE00D92B42 /* include */,
+				BCA1895825D0F49800D92B42 /* QCABluetoothFirmware */,
+				BC1C9A3725CD699B00CF9BF4 /* QCABluetoothInjector */,
 				BC8978A725CBC89A00D6FFEF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,22 +84,68 @@
 		BC8978A725CBC89A00D6FFEF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC8978A625CBC89A00D6FFEF /* Ath3KBluetoothFirmware.kext */,
-				BC1C9A2D25CBD59000CF9BF4 /* Ath3KBluetoothInjector.kext */,
+				BC8978A625CBC89A00D6FFEF /* QCABluetoothFirmware.kext */,
+				BC1C9A2D25CBD59000CF9BF4 /* QCABluetoothInjector.kext */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC8978A825CBC89A00D6FFEF /* Ath3KBluetoothFirmware */ = {
+		BC8978A825CBC89A00D6FFEF /* HAL_ATH3K */ = {
+			isa = PBXGroup;
+			children = (
+				BC8978B925CBCA2500D6FFEF /* Ath3KFirmware.hpp */,
+				BC8978B825CBCA2500D6FFEF /* Ath3KFirmware.cpp */,
+			);
+			path = HAL_ATH3K;
+			sourceTree = "<group>";
+		};
+		BCA1895825D0F49800D92B42 /* QCABluetoothFirmware */ = {
+			isa = PBXGroup;
+			children = (
+				BC8978A825CBC89A00D6FFEF /* HAL_ATH3K */,
+				BCA1895A25D0F7F800D92B42 /* HAL_QCA */,
+				BCA189EE25D55CD600D92B42 /* HAL_QCA_SOC */,
+				BCA189D625D3BABA00D92B42 /* QCABluetoothFirmware.hpp */,
+				BCA189D525D3BABA00D92B42 /* QCABluetoothFirmware.cpp */,
+				BC8978BA25CBCA2500D6FFEF /* Info.plist */,
+			);
+			path = QCABluetoothFirmware;
+			sourceTree = "<group>";
+		};
+		BCA1895925D0F5FE00D92B42 /* include */ = {
 			isa = PBXGroup;
 			children = (
 				BC8978BB25CBCA2500D6FFEF /* Common.h */,
+				BC50EF1625D68998000D40DC /* Hci.h */,
 				BC1C9A2625CBCF9C00CF9BF4 /* Firmware.h */,
-				BC8978B925CBCA2500D6FFEF /* Ath3KBluetoothFirmware.hpp */,
-				BC8978B825CBCA2500D6FFEF /* Ath3KBluetoothFirmware.cpp */,
-				BC8978BA25CBCA2500D6FFEF /* Info.plist */,
+				BCA189DC25D435F000D92B42 /* FIRMWARE_ATHRBT.h */,
+				BCA189DB25D434D300D92B42 /* FIRMWARE_RAMPS.h */,
+				BCA189EB25D437AD00D92B42 /* FIRMWARE_CRBTFW_HTBTFW.h */,
+				BCA189D925D433C100D92B42 /* FIRMWARE_RAM_PATCH.h */,
+				BCA189F325D6499100D92B42 /* FIRMWARE_RAM_PATCH_USB.h */,
+				BCA189EC25D4389700D92B42 /* FIRMWARE_CRNV_HTNV.h */,
+				BCA189DA25D4344B00D92B42 /* FIRMWARE_NVM.h */,
+				BCA189F425D649E800D92B42 /* FIRMWARE_NVM_USB.h */,
 			);
-			path = Ath3KBluetoothFirmware;
+			path = include;
+			sourceTree = "<group>";
+		};
+		BCA1895A25D0F7F800D92B42 /* HAL_QCA */ = {
+			isa = PBXGroup;
+			children = (
+				BCA1895C25D0FE0B00D92B42 /* QCAFirmware.hpp */,
+				BCA1895B25D0FE0B00D92B42 /* QCAFirmware.cpp */,
+			);
+			path = HAL_QCA;
+			sourceTree = "<group>";
+		};
+		BCA189EE25D55CD600D92B42 /* HAL_QCA_SOC */ = {
+			isa = PBXGroup;
+			children = (
+				BCA189F025D5621500D92B42 /* QCASoCFirmware.hpp */,
+				BCA189EF25D5621500D92B42 /* QCASoCFirmware.cpp */,
+			);
+			path = HAL_QCA_SOC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,18 +162,21 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC8978C025CBCA2500D6FFEF /* Ath3KBluetoothFirmware.hpp in Headers */,
+				BC8978C025CBCA2500D6FFEF /* Ath3KFirmware.hpp in Headers */,
+				BCA1895E25D0FE0B00D92B42 /* QCAFirmware.hpp in Headers */,
+				BCA189D825D3BABA00D92B42 /* QCABluetoothFirmware.hpp in Headers */,
 				BC8978C225CBCA2500D6FFEF /* Common.h in Headers */,
 				BC1C9A2725CBCF9C00CF9BF4 /* Firmware.h in Headers */,
+				BCA189F225D5621500D92B42 /* QCASoCFirmware.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BC1C9A2C25CBD59000CF9BF4 /* Ath3KBluetoothInjector */ = {
+		BC1C9A2C25CBD59000CF9BF4 /* QCABluetoothInjector */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC1C9A3425CBD59000CF9BF4 /* Build configuration list for PBXNativeTarget "Ath3KBluetoothInjector" */;
+			buildConfigurationList = BC1C9A3425CBD59000CF9BF4 /* Build configuration list for PBXNativeTarget "QCABluetoothInjector" */;
 			buildPhases = (
 				BC1C9A2825CBD59000CF9BF4 /* Headers */,
 				BC1C9A2925CBD59000CF9BF4 /* Sources */,
@@ -116,14 +187,14 @@
 			);
 			dependencies = (
 			);
-			name = Ath3KBluetoothInjector;
+			name = QCABluetoothInjector;
 			productName = Ath3KBluetoothInjector;
-			productReference = BC1C9A2D25CBD59000CF9BF4 /* Ath3KBluetoothInjector.kext */;
+			productReference = BC1C9A2D25CBD59000CF9BF4 /* QCABluetoothInjector.kext */;
 			productType = "com.apple.product-type.kernel-extension";
 		};
-		BC8978A525CBC89A00D6FFEF /* Ath3KBluetoothFirmware */ = {
+		BC8978A525CBC89A00D6FFEF /* QCABluetoothFirmware */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC8978B025CBC89A00D6FFEF /* Build configuration list for PBXNativeTarget "Ath3KBluetoothFirmware" */;
+			buildConfigurationList = BC8978B025CBC89A00D6FFEF /* Build configuration list for PBXNativeTarget "QCABluetoothFirmware" */;
 			buildPhases = (
 				BC8978A125CBC89A00D6FFEF /* Headers */,
 				BC8978A225CBC89A00D6FFEF /* Sources */,
@@ -134,9 +205,9 @@
 			);
 			dependencies = (
 			);
-			name = Ath3KBluetoothFirmware;
+			name = QCABluetoothFirmware;
 			productName = Ath3KBluetoothFirmware;
-			productReference = BC8978A625CBC89A00D6FFEF /* Ath3KBluetoothFirmware.kext */;
+			productReference = BC8978A625CBC89A00D6FFEF /* QCABluetoothFirmware.kext */;
 			productType = "com.apple.product-type.kernel-extension";
 		};
 /* End PBXNativeTarget section */
@@ -156,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BC8978A025CBC89A00D6FFEF /* Build configuration list for PBXProject "Ath3KBluetoothFirmware" */;
+			buildConfigurationList = BC8978A025CBC89A00D6FFEF /* Build configuration list for PBXProject "QCABluetoothFirmware" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -169,8 +240,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BC8978A525CBC89A00D6FFEF /* Ath3KBluetoothFirmware */,
-				BC1C9A2C25CBD59000CF9BF4 /* Ath3KBluetoothInjector */,
+				BC8978A525CBC89A00D6FFEF /* QCABluetoothFirmware */,
+				BC1C9A2C25CBD59000CF9BF4 /* QCABluetoothInjector */,
 			);
 		};
 /* End PBXProject section */
@@ -204,7 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC8978BF25CBCA2500D6FFEF /* Ath3KBluetoothFirmware.cpp in Sources */,
+				BCA189D725D3BABA00D92B42 /* QCABluetoothFirmware.cpp in Sources */,
+				BCA1895D25D0FE0B00D92B42 /* QCAFirmware.cpp in Sources */,
+				BCA189F125D5621500D92B42 /* QCASoCFirmware.cpp in Sources */,
+				BC8978BF25CBCA2500D6FFEF /* Ath3KFirmware.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,11 +291,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1.1.0;
-				INFOPLIST_FILE = Ath3KBluetoothInjector/Info.plist;
+				INFOPLIST_FILE = QCABluetoothInjector/Info.plist;
+				LD_MAP_FILE_PATH = "";
 				MARKETING_VERSION = 1.1.0;
-				MODULE_NAME = com.cjiang.Ath3KBluetoothInjector;
+				MODULE_NAME = com.cjiang.QCABluetoothInjector;
 				MODULE_VERSION = 1.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cjiang.Ath3KBluetoothInjector;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjiang.QCABluetoothInjector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};
@@ -233,11 +308,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1.1.0;
-				INFOPLIST_FILE = Ath3KBluetoothInjector/Info.plist;
+				INFOPLIST_FILE = QCABluetoothInjector/Info.plist;
+				LD_MAP_FILE_PATH = "";
 				MARKETING_VERSION = 1.1.0;
-				MODULE_NAME = com.cjiang.Ath3KBluetoothInjector;
+				MODULE_NAME = com.cjiang.QCABluetoothInjector;
 				MODULE_VERSION = 1.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cjiang.Ath3KBluetoothInjector;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjiang.QCABluetoothInjector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};
@@ -293,12 +369,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/include\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_MODULE_NAME = Ath3KBluetoothFirmware;
-				PRODUCT_NAME = Ath3KBluetoothFirmware;
+				PRODUCT_MODULE_NAME = QCABluetoothFirmware;
+				PRODUCT_NAME = QCABluetoothFirmware;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -347,12 +424,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/include\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_MODULE_NAME = Ath3KBluetoothFirmware;
-				PRODUCT_NAME = Ath3KBluetoothFirmware;
+				PRODUCT_MODULE_NAME = QCABluetoothFirmware;
+				PRODUCT_NAME = QCABluetoothFirmware;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -363,12 +441,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1.1.0;
-				INFOPLIST_FILE = Ath3KBluetoothFirmware/Info.plist;
+				INFOPLIST_FILE = QCABluetoothFirmware/Info.plist;
 				MARKETING_VERSION = 1.1.0;
-				MODULE_NAME = com.cjiang.Ath3KBluetoothFirmware;
+				MODULE_NAME = com.cjiang.QCABluetoothFirmware;
 				MODULE_VERSION = 1.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cjiang.Ath3KBluetoothFirmware;
-				PRODUCT_MODULE_NAME = Ath3KBluetoothFirmware;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjiang.QCABluetoothFirmware;
+				PRODUCT_MODULE_NAME = QCABluetoothFirmware;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};
@@ -380,12 +458,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1.1.0;
-				INFOPLIST_FILE = Ath3KBluetoothFirmware/Info.plist;
+				INFOPLIST_FILE = QCABluetoothFirmware/Info.plist;
 				MARKETING_VERSION = 1.1.0;
-				MODULE_NAME = com.cjiang.Ath3KBluetoothFirmware;
+				MODULE_NAME = com.cjiang.QCABluetoothFirmware;
 				MODULE_VERSION = 1.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cjiang.Ath3KBluetoothFirmware;
-				PRODUCT_MODULE_NAME = Ath3KBluetoothFirmware;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjiang.QCABluetoothFirmware;
+				PRODUCT_MODULE_NAME = QCABluetoothFirmware;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};
@@ -394,7 +472,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BC1C9A3425CBD59000CF9BF4 /* Build configuration list for PBXNativeTarget "Ath3KBluetoothInjector" */ = {
+		BC1C9A3425CBD59000CF9BF4 /* Build configuration list for PBXNativeTarget "QCABluetoothInjector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC1C9A3525CBD59000CF9BF4 /* Debug */,
@@ -403,7 +481,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC8978A025CBC89A00D6FFEF /* Build configuration list for PBXProject "Ath3KBluetoothFirmware" */ = {
+		BC8978A025CBC89A00D6FFEF /* Build configuration list for PBXProject "QCABluetoothFirmware" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC8978AE25CBC89A00D6FFEF /* Debug */,
@@ -412,7 +490,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC8978B025CBC89A00D6FFEF /* Build configuration list for PBXNativeTarget "Ath3KBluetoothFirmware" */ = {
+		BC8978B025CBC89A00D6FFEF /* Build configuration list for PBXNativeTarget "QCABluetoothFirmware" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC8978B125CBC89A00D6FFEF /* Debug */,

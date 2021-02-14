@@ -1,6 +1,11 @@
+/** @file
+  Copyright (c) 2021 cjiang. All rights reserved.
+  SPDX-License-Identifier: GPL-2.0-or-later
+**/
+
 //
 //  Common.h
-//  Ath3KBluetoothFirmware
+//  QCABluetoothFirmware
 //
 //  Copyright © 2021 cjiang. All rights reserved.
 //
@@ -49,7 +54,32 @@ typedef s16         __s16;
 typedef s32         __s32;
 typedef s64         __s64;
 
+#define __cpu_to_le64(x) ((__le64)(__u64)(x))
+#define __le64_to_cpu(x) ((__u64)(__le64)(x))
+#define __cpu_to_le32(x) ((__le32)(__u32)(x))
 #define __le32_to_cpu(x) ((__u32)(__le32)(x))
+#define __cpu_to_le16(x) ((__le16)(__u16)(x))
+#define __le16_to_cpu(x) ((__u16)(__le16)(x))
+#define __cpu_to_be64(x) ((__be64)__swab64((x)))
+#define __be64_to_cpu(x) __swab64((__u64)(__be64)(x))
+#define __cpu_to_be32(x) ((__be32)__swab32((x)))
+#define __be32_to_cpu(x) __swab32((__u32)(__be32)(x))
+#define __cpu_to_be16(x) ((__be16)__swab16((x)))
+#define __be16_to_cpu(x) __swab16((__u16)(__be16)(x))
+
+#define cpu_to_le64 __cpu_to_le64
+#define le64_to_cpu __le64_to_cpu
+#define cpu_to_le32 __cpu_to_le32
+#define le32_to_cpu __le32_to_cpu
+#define cpu_to_le16 __cpu_to_le16
+#define le16_to_cpu __le16_to_cpu
+#define cpu_to_be64 OSSwapHostToBigInt64
+#define be64_to_cpu OSSwapBigToHostInt64
+#define cpu_to_be32 OSSwapHostToBigInt32
+#define be32_to_cpu OSSwapBigToHostInt32
+#define cpu_to_be16 OSSwapHostToBigInt16
+#define be16_to_cpu OSSwapBigToHostInt16
+
 #define __packed __attribute__((packed)) __attribute__((aligned(1)))
 
 #define ARRAY_SIZE(arr) (sizeof(arr) / sizeof((arr)[0]))

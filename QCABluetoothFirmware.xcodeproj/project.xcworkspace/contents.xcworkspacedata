@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Ath3KBluetoothFirmware.xcodeproj">
+      location = "self:/Users/charliejiang/Desktop/Ath3KBluetoothFirmware/QCABluetoothFirmware.xcodeproj">
    </FileRef>
 </Workspace>

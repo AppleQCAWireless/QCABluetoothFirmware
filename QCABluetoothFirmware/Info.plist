@@ -598,7 +598,7 @@
 			<key>idVendor</key>
 			<integer>3315</integer>
 		</dict>
-		<key>0CF3_817a</key>
+		<key>0CF3_817A</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.cjiang.${PRODUCT_NAME:rfc1034identifier}</string>

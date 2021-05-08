@@ -64,9 +64,7 @@ IOService * QCABluetoothFirmware::probe(IOService * provider, SInt32 * score)
     }
     
     if (m_pUSBDevice)
-    {
         m_pUSBDevice = NULL;
-    }
     
     return this;
 }
@@ -84,28 +82,24 @@ void QCABluetoothFirmware::stop(IOService * provider)
 bool QCABluetoothFirmware::handleOpen(IOService * forClient, IOOptionBits options, void * arg)
 {
     FuncLog("handleOpen");
-    
     return super::handleOpen(forClient, options, arg);
 }
 
 void QCABluetoothFirmware::handleClose(IOService * forClient, IOOptionBits options)
 {
     FuncLog("handleClose");
-    
     super::handleClose(forClient, options);
 }
 
 bool QCABluetoothFirmware::terminate(IOOptionBits options)
 {
     FuncLog("terminate");
-    
     return super::terminate(options);
 }
 
 bool QCABluetoothFirmware::finalize(IOOptionBits options)
 {
     FuncLog("finalize");
-    
     return super::finalize(options);
 }
 
